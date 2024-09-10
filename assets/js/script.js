@@ -22,7 +22,7 @@ form.addEventListener('submit', function (event) {
         value.classList.remove('attention');
         value.classList.add('normal');
     } else if (bmi > 25 && bmi <= 35) {
-        description = 'Cuidado! está com obesidade moderada!';
+        description = 'Cuidado! está com sobrepeso moderado!';
     } else if (bmi > 35 && bmi <= 40) {
         description = 'Cuidado! Você está com obesidade severa!'
     } else {
